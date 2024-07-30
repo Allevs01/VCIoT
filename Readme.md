@@ -44,7 +44,7 @@ cd /workspace
 cargo build --target armv7-unknown-linux-gnueabihf
 ```
 
-If everything is configured correctly, the project should compile for ARM using the compatible system version. The binary should be located in \`/target/arm.../build\`. To facilitate workflow, copy the binary outside \`/target\`, zip it with \`gzip\`, and then compress the file with \`tar\`.
+If everything is configured correctly, the project should compile for ARM using the compatible system version. The binary should be located in \`/target/armv7.../debug\`. To facilitate workflow, copy the binary outside \`/target\`, zip it with \`gzip\`, and then compress the file with \`tar\`.
 
 ## 3. Set Up the SSH Frontend
 
