@@ -1,0 +1,27 @@
+[package]
+name = "didkemb"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[target.armv7-unknown-linux-gnueabihf]
+linker = "arm-linux-gnueabihf-gcc"
+
+[dependencies]
+async-trait = "0.1.80"
+serde = "1.0.202"
+serde_json = "1.0.117"
+ssi = {version = "0.7.0"}
+tokio = { version = "1", features = ["full"] }
+uuid = { version = "1.8.0", features = ["v4"] }
+anyhow = "1.0.62"
+ssi-dids = {version = "0.1.1", features = ["example"]}
+psutil = "3.3.0"
+num_cpus = "1.16.0"
+sysinfo = "0.30.13"
+
+[[bin]]
+name = "10claim"
+path = "src/10claim.rs"
+
