@@ -1,6 +1,6 @@
-# Issuing VC on IoT Device with Embedded Linux using Fit IoT-Lab Testbed
+# Certifying IoT Data with Verifiable Credentials
 
-This guide will help you set up an IoT device with embedded Linux using the Fit IoT-Lab Testbed to issue Verifiable Credentials (VCs).
+This project allows issuing Verifiable Credentials on an IoT device supporting embedded Linux.
 
 ## 1. SSH Access to the Testbed
 
@@ -62,7 +62,7 @@ git clone https://github.com/Allevs01/VCIoT.git
 
 Unzip the tar file and move it outside the repository (for semplicity, there is already the bin on the repo).
 
-## 4. Test from IoT A8-M3
+## 4. Test on IoT A8-M3
 
 From the SSH frontend, submit the experiment with the following command:
 
@@ -103,5 +103,3 @@ Run the binary:
 ```bash
 ./10claim
 ```
-
-Follow these steps to successfully set up and test your IoT device on the Fit IoT-Lab Testbed.
