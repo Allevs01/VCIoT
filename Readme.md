@@ -60,7 +60,7 @@ Clone the repository:
 git clone https://github.com/Allevs01/VCIoT.git
 ```
 
-Unzip the tar file and move it outside the repository.
+Unzip the tar file and move it outside the repository (for semplicity, there is already the bin on the repo).
 
 ## 4. Test from IoT A8-M3
 
